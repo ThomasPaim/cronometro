@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@300&family=Poppins:ital,wght@0,300;1,300&display=swap');
+
+body{
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Kanit', sans-serif;
+    
+   
+}
+
+main{
+   display: flex;
+   flex-direction: column;
+    
+}
+
+#cronometro{
+    display: flex;
+    gap: 2rem;
+    font-size: 25px;
+    text-align: center;
+    justify-content: center;
+}
+
+.num{
+    width: 100px;
+    margin-bottom: 20px;
+}
+
+#botoes{
+    display: flex;
+    gap: 1rem;
+}
+
+#botoes button{
+    cursor: pointer;
+    width: 120px;
+    height: 50px;
+    font-size: 23px;
+    border: 1px solid #121212;
+    background-color: rgb(255, 254, 254);
+    color: #4792f3;
+}
+
+#continuar{
+    display: none;
+}
